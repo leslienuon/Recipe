@@ -1,0 +1,98 @@
+main h1 {
+	color: black;
+	text-align: center;
+	font-size: 3rem;
+	font-family: Garamond;
+	text-transform-transform:uppercase;
+}
+
+body{
+	width: 600px;
+margin: 0 auto;
+background-color: #F5F5F5;
+padding: 0 20px 20px 20px;
+border: 5px solid black;
+}
+
+h1{
+	margin: 0;
+	padding: 20px 0;
+	color: #00539F;
+}
+logo-h1{
+font-family: Garamond;
+font-size: 1.5rem;
+color: #D7ccc8;
+}
+menu-a{
+color: #D7CCC9;
+text-decoration: none;
+}
+main{
+	padding: 3rem 5%;
+	width: 60%;
+}
+main-h1{
+	font-family: Garamond, medium;
+	font-size: 3rem;
+}
+
+@media screen and (min-width: 40em){
+col-left img{
+	width: 30%
+	float: left;
+
+}
+@media screen and (min-width: 40em){
+col-right{
+	width: 65%
+	float:right;
+}
+@media screen and (min-width: 40em){
+ingredient {
+ width: 45%;
+	 	 float: left;
+ margin-right: 5%;
+}
+}
+ingredients-ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ingredients-li{
+padding: 5rem 0;
+border-top: 1px dotted #BDBDBD
+overflow hidden;
+}
+@media screen and (min-width: 40em){
+logo {
+ width: 50%;
+	 	 float: left;
+}	 	 
+menu {
+ width: 50%;
+	 	 float: right;
+	 	 background: url(../img/menu.png)no-repeat; 
+}
+header {
+	 overflow: hidden;
+}
+main h1 {
+font-size: 1.5rem;
+}
+@media screen and (min-width: 40em){
+main h1 {
+ font-size: 3rem;
+}
+
+footer p{
+	margin: 0;
+	color: #757575
+}
+footer a{
+	text-decoration: none;
+	font-style: Garamond, medium;
+	color: #ffffff;
+	background-color: #757575;
+}
